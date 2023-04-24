@@ -76,10 +76,14 @@ public class BaseTest extends AppiumUtils {
 		Double price = Double.parseDouble((amount).substring(1));
 		return price;
 	}*/
+	public void khaliemnem() {
+		System.out.println("ela ey jenaa");
+	}
 	@AfterClass(alwaysRun=true)
 	public void teardown() throws Exception {
 		Thread.sleep(3000);
 		driver.quit();
 		service.stop();
 	}
+	
 }
