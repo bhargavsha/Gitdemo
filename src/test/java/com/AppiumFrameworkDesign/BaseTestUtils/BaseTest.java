@@ -78,6 +78,7 @@ public class BaseTest extends AppiumUtils {
 	}*/
 	public void khaliemnem() {
 		System.out.println("ela ey jenaa");
+		System.out.println("chal ey pritesh");
 	}
 	@AfterClass(alwaysRun=true)
 	public void teardown() throws Exception {
