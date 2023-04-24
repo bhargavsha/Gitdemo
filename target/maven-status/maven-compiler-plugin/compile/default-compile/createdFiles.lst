@@ -1,0 +1,6 @@
+com\AppiumFrameworkDesign\Utils\AppiumUtils$1.class
+com\AppiumFrameworkDesign\PageObjects\Android\ProductCatalogue.class
+com\AppiumFrameworkDesign\PageObjects\Android\cartpage.class
+com\AppiumFrameworkDesign\PageObjects\Android\FormPage.class
+com\AppiumFrameworkDesign\Utils\AppiumUtils.class
+com\AppiumFrameworkDesign\Utils\AndroidGestureActions.class

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T16:41:08 IST" name="Suite" finished-at="2023-04-21T16:43:37 IST" duration-ms="148527">
+    <groups>
+      <group name="smoke">
+        <method signature="ecommerce_tc_4_Hybrid.CheckouttoHybrid(java.util.HashMap)[pri:0, instance:com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid@1f010bf0]" name="CheckouttoHybrid" class="com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-04-21T16:41:08 IST" name="Test1" finished-at="2023-04-21T16:43:37 IST" duration-ms="148527">
+      <class name="com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid@1f010bf0]" started-at="2023-04-21T16:41:08 IST" name="ConfigureAppium" finished-at="2023-04-21T16:41:32 IST" duration-ms="24413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="CheckouttoHybrid(java.util.HashMap)[pri:0, instance:com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid@1f010bf0]" started-at="2023-04-21T16:41:34 IST" name="CheckouttoHybrid" data-provider="getdata" finished-at="2023-04-21T16:42:50 IST" duration-ms="76202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Bhargav Shah, country=India, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckouttoHybrid -->
+        <test-method signature="CheckouttoHybrid(java.util.HashMap)[pri:0, instance:com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid@1f010bf0]" started-at="2023-04-21T16:42:50 IST" name="CheckouttoHybrid" data-provider="getdata" finished-at="2023-04-21T16:43:33 IST" duration-ms="42932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Hargav Shah, country=Canada, gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckouttoHybrid -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid@1f010bf0]" started-at="2023-04-21T16:43:33 IST" name="teardown" finished-at="2023-04-21T16:43:37 IST" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AppiumFrameworkDesign.ecommerce_tc_4_Hybrid -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

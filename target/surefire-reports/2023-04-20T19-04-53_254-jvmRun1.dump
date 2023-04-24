@@ -1,0 +1,30 @@
+# Created at 2023-04-20T19:04:54.331
+java.lang.VerifyError: Illegal type at constant pool entry 32 in class com.AppiumFrameworkDesign.BaseTestUtils.Listeners
+Exception Details:
+  Location:
+    com/AppiumFrameworkDesign/BaseTestUtils/Listeners.onTestFailedWithTimeout(Lorg/testng/ITestResult;)V @2: invokespecial
+  Reason:
+    Constant pool index 32 is invalid
+  Bytecode:
+    0000000: 2a2b b700 20b1                         
+
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getConstructors(Class.java:1943)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:47)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:10)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:60)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.TestNG.addListeners(TestNG.java:1000)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:957)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1048)
+	at org.testng.TestNG.run(TestNG.java:1059)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+

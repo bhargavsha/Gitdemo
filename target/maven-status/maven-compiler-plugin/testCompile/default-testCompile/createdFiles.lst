@@ -1,0 +1,4 @@
+com\AppiumFrameworkDesign\BaseTestUtils\BaseTest.class
+com\AppiumFrameworkDesign\BaseTestUtils\ExtentReporterNG.class
+com\AppiumFrameworkDesign\ecommerce_tc_4_Hybrid.class
+com\AppiumFrameworkDesign\BaseTestUtils\Listeners.class
